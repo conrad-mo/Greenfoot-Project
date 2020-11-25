@@ -14,6 +14,9 @@ public class Spaceship extends Actor
      */
     public void act() 
     {
+        /**
+         * If and else if statements below control movement of spaceship based on WASD
+         */
         if (Greenfoot.isKeyDown("d"))
         {
             move(3);
