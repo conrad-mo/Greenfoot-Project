@@ -20,8 +20,8 @@ public class Asteroid extends Actor
     {
         if (isAtEdge())
         {
-            removeObject(asteroids);
             MyWorld world = (MyWorld) getWorld();
+            removeObject(asteroids);
             world.createAsteroid();
         }
     }
