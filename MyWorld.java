@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class MyWorld here.
+ * The game world/screen
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Conrad Mo 
+ * @November 25th 2020
  */
 public class MyWorld extends World
 {
@@ -17,5 +17,8 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+        
+        Spaceship player = new Spaceship();
+        addObject(player, 300, 350);
     }
 }
