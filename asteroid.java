@@ -15,5 +15,14 @@ public class Asteroid extends Actor
     public void act() 
     {
         setLocation(getX(), getY() + 5);
-    }    
+    }
+    public void spawn()
+    {
+        if (isAtEdge())
+        {
+            removeTouching(Asteroid.class);
+            MyWorld world = (MyWorld) getWorld();
+            world.createAsteroid();
+        }
+    }
 }

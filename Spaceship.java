@@ -22,16 +22,5 @@ public class Spaceship extends Actor
         {
             move(-3);
         }
-        
-        hit();
-    }
-    public void hit()
-    {
-        if(isTouching(Asteroid.class))
-        {
-            removeTouching(Asteroid.class);
-            MyWorld world = (MyWorld) getWorld();
-            world.createAsteroid();
-        }
     }
 }
