@@ -20,7 +20,14 @@ public class MyWorld extends World
         
         Spaceship player = new Spaceship();
         addObject(player, 300, 350);
+        createAsteroid();
+    }
+    
+    public void createAsteroid()
+    {
         Asteroid asteroids = new Asteroid();
-        addObject(asteroids, 0, 0);
+        int x = Greenfoot.getRandomNumber(600);
+        int y = 0;
+        addObject(asteroids, x, y);
     }
 }
