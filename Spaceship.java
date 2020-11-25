@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Spaceship here.
+ * The Spaceship is player controlled game character
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Conrad Mo
+ * @November 25th 2020
  */
 public class Spaceship extends Actor
 {
