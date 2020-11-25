@@ -4,7 +4,7 @@ A spacship game created using the greenfoot framework
 
 ## Installation
 
-Download from the release page of this project (Project is incomplete so there isn't a release yet)
+Download from the release page of this project (project is incomplete so there isn't a release yet)
 
 ## Usage
 
