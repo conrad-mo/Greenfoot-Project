@@ -14,6 +14,13 @@ public class Spaceship extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        if (Greenfoot.isKeyDown("d"))
+        {
+            move(3);
+        }
+        else if (Greenfoot.isKeyDown("a"))
+        {
+            move(-3);
+        }
     }    
 }
