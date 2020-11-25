@@ -20,5 +20,7 @@ public class MyWorld extends World
         
         Spaceship player = new Spaceship();
         addObject(player, 300, 350);
+        Asteroid asteroids = new Asteroid();
+        addObject(asteroids, 0, 0);
     }
 }
