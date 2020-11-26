@@ -19,7 +19,6 @@ public class EndScreen extends World
         super(600, 400, 1);
         Label gameOver = new Label("Game Over", 100);
         addObject(gameOver, 300, 200);
-        Greenfoot.delay(5);
         end();
     }
     public void end()
