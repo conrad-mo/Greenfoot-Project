@@ -18,10 +18,10 @@ public class asteroid extends Actor
     }
     public void spawn()
     {
-        if (isAtEdge())
+        if (isTouching(World.class))
         {
+            removeTouching(asteroid.class);
             MyWorld world = (MyWorld) getWorld();
-            objectRemove(asteroids);
             world.createAsteroid();
         }
     }
