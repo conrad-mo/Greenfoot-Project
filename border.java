@@ -1,24 +1,25 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * An asteroid class
+ * Write a description of class border here.
  * 
- * @Conrad Mo 
- * @November 25th 2020
+ * @author (your name) 
+ * @version (a version number or a date)
  */
-public class asteroid extends Actor
+public class border extends Actor
 {
     /**
-     * Act - do whatever the asteroid wants to do. This method is called whenever
+     * Act - do whatever the border wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        setLocation(getX(), getY() + 5);
+        setLocation(0, 400);
+        spawn();
     }
     public void spawn()
     {
-        if (isTouching(World.class))
+        if (isTouching(asteroid.class))
         {
             removeTouching(asteroid.class);
             MyWorld world = (MyWorld) getWorld();

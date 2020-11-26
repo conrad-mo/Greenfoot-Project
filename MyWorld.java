@@ -21,6 +21,8 @@ public class MyWorld extends World
         Spaceship player = new Spaceship();
         addObject(player, 300, 350);
         createAsteroid();
+        border border = new border();
+        addObject(border, 1, 400);
     }
     
     public void createAsteroid()

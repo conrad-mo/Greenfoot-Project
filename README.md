@@ -1,6 +1,6 @@
 # Greenfoot-Project
 
-A spacship game created using the greenfoot framework
+A spaceship game created using the greenfoot framework
 
 ## Installation
 
