@@ -24,6 +24,7 @@ public class border extends Actor
             removeTouching(asteroid.class);
             MyWorld world = (MyWorld) getWorld();
             world.createAsteroid();
+            world.increaseScore();
         }
     }
 }
