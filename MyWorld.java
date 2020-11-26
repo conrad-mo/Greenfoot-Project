@@ -41,6 +41,7 @@ public class MyWorld extends World
     }
     public void gameOver()
     {
-        Greenfoot.stop();
+        EndScreen EndScreen = new EndScreen();
+        Greenfoot.setWorld(EndScreen);
     }
 }

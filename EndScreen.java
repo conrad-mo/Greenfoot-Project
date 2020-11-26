@@ -16,6 +16,14 @@ public class EndScreen extends World
     public EndScreen()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(600, 400, 1);
+        Label gameOver = new Label("Game Over", 100);
+        addObject(gameOver, 300, 200);
+        Greenfoot.delay(5);
+        end();
+    }
+    public void end()
+    {
+        Greenfoot.stop();
     }
 }
