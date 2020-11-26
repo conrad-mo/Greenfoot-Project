@@ -20,6 +20,8 @@ public class MyWorld extends World
         
         Spaceship player = new Spaceship();
         addObject(player, 300, 350);
+        Label score = new Label(0, 30);
+        addObject(score, 20, 20);
         createAsteroid();
         border border = new border();
         addObject(border, 1, 400);
