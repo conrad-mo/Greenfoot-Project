@@ -14,6 +14,8 @@ public class asteroid extends Actor
      */
     public void act() 
     {
-        setLocation(getX(), getY() + 5);
+        MyWorld world = (MyWorld) getWorld();
+        int asteroidspeed = world.getSpeed();
+        setLocation(getX(), getY() + asteroidspeed);
     }
 }

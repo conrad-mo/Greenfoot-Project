@@ -9,6 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class MyWorld extends World
 {
     public int scorenumber = 0;
+    public int asteroidspeed = 5;
     Label score;
     /**
      * Constructor for objects of class MyWorld.
@@ -37,11 +38,16 @@ public class MyWorld extends World
     public void increaseScore()
     {
         scorenumber++;
+        asteroidspeed++;
         score.setValue(scorenumber);
     }
     public void gameOver()
     {
         EndScreen EndScreen = new EndScreen();
         Greenfoot.setWorld(EndScreen);
+    }
+    public int getSpeed()
+    {
+        return asteroidspeed;
     }
 }
