@@ -14,6 +14,16 @@ public class border extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+        setLocation(0, 400);
+        spawn();
+    }
+    public void spawn()
+    {
+        if (isTouching(asteroid.class))
+        {
+            removeTouching(asteroid.class);
+            MyWorld world = (MyWorld) getWorld();
+            world.createAsteroid();
+        }
+    }
 }
