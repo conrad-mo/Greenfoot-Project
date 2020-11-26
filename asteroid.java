@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @Conrad Mo 
  * @November 25th 2020
  */
-public class Asteroid extends Actor
+public class asteroid extends Actor
 {
     /**
      * Act - do whatever the asteroid wants to do. This method is called whenever

@@ -25,7 +25,7 @@ public class MyWorld extends World
     
     public void createAsteroid()
     {
-        Asteroid asteroids = new Asteroid();
+        asteroid asteroids = new asteroid();
         int x = Greenfoot.getRandomNumber(600);
         int y = 0;
         addObject(asteroids, x, y);

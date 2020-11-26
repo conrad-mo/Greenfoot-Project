@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.target=Asteroid
+comment0.target=asteroid
 comment0.text=\r\n\ An\ asteroid\ class\r\n\ \r\n\ @Conrad\ Mo\ \r\n\ @November\ 25th\ 2020\r\n
 comment1.params=
 comment1.target=void\ act()
