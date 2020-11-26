@@ -39,4 +39,8 @@ public class MyWorld extends World
         scorenumber++;
         score.setValue(scorenumber);
     }
+    public void gameOver()
+    {
+        Greenfoot.stop();
+    }
 }

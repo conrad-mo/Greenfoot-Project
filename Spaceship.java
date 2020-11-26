@@ -30,5 +30,14 @@ public class Spaceship extends Actor
         {
             setLocation(getX(), getY() + 3);
         }
+        end();
+    }
+    public void end()
+    {
+       if(isTouching(asteroid.class))
+       {
+           MyWorld world = (MyWorld) getWorld();
+           world.gameOver();
+       }
     }
 }
