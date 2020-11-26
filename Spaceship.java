@@ -26,7 +26,7 @@ public class Spaceship extends Actor
         {
             setLocation(getX(), getY() - 3);
         }
-                else if (Greenfoot.isKeyDown("s"))
+        else if (Greenfoot.isKeyDown("s"))
         {
             setLocation(getX(), getY() + 3);
         }
