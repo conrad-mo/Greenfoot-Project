@@ -21,6 +21,8 @@ public class MyWorld extends World
         Spaceship player = new Spaceship();
         addObject(player, 300, 350);
         createAsteroid();
+        asteroid asteroidss = new asteroid();
+        addObject(asteroidss, 0, 400);
     }
     
     public void createAsteroid()
