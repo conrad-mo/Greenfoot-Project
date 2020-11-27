@@ -1,7 +1,7 @@
 # Greenfoot-Project
 ![GitHub license](https://img.shields.io/github/license/F0lkl0re/Greenfoot-Project.svg)
-![GitHub issues](https://img.shields.io/github/issues/F0lkl0re/Greenfoot-Project)
-![GitHub size](https://img.shields.io/github/repo-size/F0lkl0re/Greenfoot-Project)
+![GitHub issues](https://img.shields.io/github/issues/F0lkl0re/Greenfoot-Project.svg)
+![GitHub size](https://img.shields.io/github/repo-size/F0lkl0re/Greenfoot-Project.svg)
 ![Github releases](https://img.shields.io/github/v/release/F0lkl0re/Greenfoot-Project?include_prereleases)
 
 A spaceship game created using the greenfoot framework
