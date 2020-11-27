@@ -26,9 +26,26 @@ public class Spaceship extends Actor
         {
             setLocation(getX(), getY() - 3);
         }
-                else if (Greenfoot.isKeyDown("s"))
+        else if (Greenfoot.isKeyDown("s"))
         {
             setLocation(getX(), getY() + 3);
         }
+        else if (Greenfoot.isKeyDown("space"))
+        {
+            MyWorld world = (MyWorld) getWorld();
+            laser laser = new laser();
+            world.addObject(laser, getX(), getY() - 5);
+            world.energylevel--;
+            world.energy.setValue(world.energylevel);
+        }
+        end();
+    }
+    public void end()
+    {
+       if(isTouching(asteroid.class))
+       {
+           MyWorld world = (MyWorld) getWorld();
+           world.gameOver();
+       }
     }
 }

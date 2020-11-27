@@ -14,15 +14,8 @@ public class asteroid extends Actor
      */
     public void act() 
     {
-        setLocation(getX(), getY() + 5);
-    }
-    public void spawn()
-    {
-        if (isTouching(World.class))
-        {
-            removeTouching(asteroid.class);
-            MyWorld world = (MyWorld) getWorld();
-            world.createAsteroid();
-        }
+        MyWorld world = (MyWorld) getWorld();
+        int asteroidspeed = world.getSpeed();
+        setLocation(getX(), getY() + asteroidspeed);
     }
 }
