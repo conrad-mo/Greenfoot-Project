@@ -14,6 +14,17 @@ public class laser extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+        setLocation(getX(), getY() - 6);
+        destroy();
+    }
+    public void destroy()
+    {
+        if (isTouching(asteroid.class))
+        {
+            removeTouching(asteroid.class);
+            MyWorld world = (MyWorld) getWorld();
+            world.createAsteroid();
+            world.increaseScore();
+        }
+    }
 }
