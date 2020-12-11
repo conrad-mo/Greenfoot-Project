@@ -21,6 +21,9 @@ public class StartScreen extends World
     }
     public void act()
     {
+        /*
+         * Starts the game if "Start" text is fixed
+         */
         if(Greenfoot.mouseClicked(start))
         {
             MyWorld world = new MyWorld();
