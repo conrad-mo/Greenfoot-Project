@@ -19,10 +19,10 @@ public class EndScreen extends World
         super(600, 400, 1);
         Label gameOver = new Label("Game Over", 100);
         addObject(gameOver, 300, 200);
-        end();
-    }
-    public void end()
-    {
-        Greenfoot.stop();
+        if(Greenfoot.isKeyDown("space"))
+        {
+            StartScreen EndScreen = new StartScreen();
+            Greenfoot.setWorld(EndScreen);
+        }
     }
 }
