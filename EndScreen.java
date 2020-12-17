@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class EndScreen extends World
 {
-
+    Label gameOver = new Label("Game Over", 100);
     /**
      * Constructor for objects of class EndScreen.
      * 
@@ -17,9 +17,11 @@ public class EndScreen extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1);
-        Label gameOver = new Label("Game Over", 100);
         addObject(gameOver, 300, 200);
-        if(Greenfoot.isKeyDown("space"))
+    }
+    public void act()
+    {
+        if(Greenfoot.mouseClicked(gameOver))
         {
             StartScreen EndScreen = new StartScreen();
             Greenfoot.setWorld(EndScreen);
