@@ -19,6 +19,9 @@ public class topborder extends Actor
     }
     public void spawn()
     {
+        /*
+         * removes lasers if reaching the top of the world
+         */
         if (isTouching(laser.class))
         {
             removeTouching(laser.class);

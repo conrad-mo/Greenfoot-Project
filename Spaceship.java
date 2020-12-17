@@ -14,6 +14,9 @@ public class Spaceship extends Actor
      */
     public void act() 
     {
+      /*
+       * Movement keys for spaceship
+       */
         if (Greenfoot.isKeyDown("d"))
         {
             move(3);
@@ -42,6 +45,9 @@ public class Spaceship extends Actor
     }
     public void end()
     {
+       /*
+        * Ends the game if touches an asteroid
+        */
        if(isTouching(asteroid.class))
        {
            MyWorld world = (MyWorld) getWorld();

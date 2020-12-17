@@ -19,6 +19,9 @@ public class border extends Actor
     }
     public void spawn()
     {
+        /*
+         * Spawns new asteroids when asteroid reaches the bottom of the world
+         */
         if (isTouching(asteroid.class))
         {
             removeTouching(asteroid.class);

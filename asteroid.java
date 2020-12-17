@@ -9,8 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class asteroid extends Actor
 {
     /**
-     * Act - do whatever the asteroid wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Gets the asteroid to fall and increases speed based on score
      */
     public void act() 
     {

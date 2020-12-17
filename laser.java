@@ -18,6 +18,9 @@ public class laser extends Actor
         destroy();
     }
     public void destroy()
+    /*
+     * Destroys asteroids if in contact with one
+     */
     {
         if (isTouching(asteroid.class))
         {
