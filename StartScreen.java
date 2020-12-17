@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class StartScreen extends World
 {
-    Label start = new Label("Start", 100);
     /**
      * Constructor for objects of class StartScreen.
      * 
@@ -17,11 +16,16 @@ public class StartScreen extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-        addObject(start, 300, 200);
+
+        Label start = new Label("Start", 100);
+        Label instructions = new Label("(click to begin)", 50);
+        addObject(start, 300, 150);
+        addObject(instructions, 300, 250);
     }
+
     public void act()
     {
-        if(Greenfoot.mouseClicked(start))
+        if(Greenfoot.mouseClicked(null))
         {
             MyWorld world = new MyWorld();
             Greenfoot.setWorld(world);
