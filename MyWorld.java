@@ -10,7 +10,7 @@ public class MyWorld extends World
 {
     public int scorenumber = 0;
     public int asteroidspeed = 5;
-    public int energylevel = 10;
+    public int energylevel = 100;
     public int spaceshipX;
     public int spaceshipY;
     Label score;
@@ -46,7 +46,10 @@ public class MyWorld extends World
     public void increaseScore()
     {
         scorenumber++;
-        asteroidspeed++;
+        if (asteroidspeed < 11)
+        {
+            asteroidspeed++;
+        }
         score.setValue(scorenumber);
     }
     public void gameOver()
@@ -62,7 +65,7 @@ public class MyWorld extends World
     {
         laser laser = new laser();
         int laserx = spaceshipX;
-        int lasery = spaceshipY - 3;
+        int lasery = spaceshipY;
         addObject(laser, laserx, lasery);
     }
     public void setShipX(int x)

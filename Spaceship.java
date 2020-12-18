@@ -36,10 +36,13 @@ public class Spaceship extends Actor
         else if (Greenfoot.isKeyDown("space"))
         {
             MyWorld world = (MyWorld) getWorld();
+            if (world.energylevel > 0)
+            {
             laser laser = new laser();
             world.addObject(laser, getX(), getY() - 5);
             world.energylevel--;
             world.energy.setValue(world.energylevel);
+            }
         }
         end();
     }

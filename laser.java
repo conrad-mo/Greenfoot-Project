@@ -28,6 +28,7 @@ public class laser extends Actor
             MyWorld world = (MyWorld) getWorld();
             world.createAsteroid();
             world.increaseScore();
+            world.energylevel = world.energylevel + 10;
         }
     }
 }

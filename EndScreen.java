@@ -21,7 +21,7 @@ public class EndScreen extends World
     }
     public void act()
     {
-        if(Greenfoot.mouseClicked(gameOver))
+        if(Greenfoot.mouseClicked(null))
         {
             StartScreen EndScreen = new StartScreen();
             Greenfoot.setWorld(EndScreen);
