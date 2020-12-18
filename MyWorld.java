@@ -50,7 +50,7 @@ public class MyWorld extends World
         {
             asteroidspeed++;
         }
-        if (energylevel < 90)
+        if (energylevel < 40)
         {
             energylevel = energylevel + 10;
         }

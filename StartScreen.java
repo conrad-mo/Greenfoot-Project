@@ -16,7 +16,6 @@ public class StartScreen extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1);
-        
         Label start = new Label("Start", 100);
         Label instructions = new Label("(click to begin)", 50);
         addObject(start, 300, 150);
