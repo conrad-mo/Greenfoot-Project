@@ -10,7 +10,7 @@ public class MyWorld extends World
 {
     public int scorenumber = 0;
     public int asteroidspeed = 5;
-    public int energylevel = 50;
+    public int energylevel = 20;
     public int spaceshipX;
     public int spaceshipY;
     Label score;
@@ -50,7 +50,7 @@ public class MyWorld extends World
         {
             asteroidspeed++;
         }
-        if (energylevel < 40)
+        if (energylevel < 10)
         {
             energylevel = energylevel + 10;
         }
