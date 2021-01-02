@@ -54,6 +54,10 @@ public class MyWorld extends World
         {
             energylevel = energylevel + 10;
         }
+        if (energylevel > 9)
+        {
+            energylevel = 20;
+        }
         energy.setValue(energylevel);
         score.setValue(scorenumber);
     }
