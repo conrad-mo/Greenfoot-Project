@@ -22,8 +22,7 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
-        
+        super(600, 400, 1);
         Spaceship player = new Spaceship();
         addObject(player, 300, 350);
         score = new Label(scorenumber, 30);
@@ -38,6 +37,7 @@ public class MyWorld extends World
     }
     public void createAsteroid()
     {
+        //Creates new asteroid when touching world border
         asteroid asteroids = new asteroid();
         int x = Greenfoot.getRandomNumber(600);
         int y = 0;
@@ -45,6 +45,10 @@ public class MyWorld extends World
     }
     public void increaseScore()
     {
+        /*
+        Increases score and refills energy level as well as increases
+        asteroid speed
+        */
         scorenumber++;
         if (asteroidspeed < 11)
         {
@@ -63,15 +67,18 @@ public class MyWorld extends World
     }
     public void gameOver()
     {
+        //Switches world from myWorld to EndScreen
         EndScreen EndScreen = new EndScreen();
         Greenfoot.setWorld(EndScreen);
     }
     public int getSpeed()
     {
+        //Returns asteroidspeed value
         return asteroidspeed;
     }
     public void shoot()
     {
+        //Allows shooting lasers from the spaceship
         laser laser = new laser();
         int laserx = spaceshipX;
         int lasery = spaceshipY;
@@ -79,10 +86,12 @@ public class MyWorld extends World
     }
     public void setShipX(int x)
     {
+        //sets "x" variable from spaceship coordinates
         spaceshipX = x;
     }
     public void setShipY(int y)
     {
+        //sets "y" variable from spaceship coordinates
         spaceshipY = y;
     }
 }
