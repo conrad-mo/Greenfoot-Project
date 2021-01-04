@@ -1,4 +1,5 @@
 #Greenfoot project file
+class.MyWorld.image=space.jpg
 class.Spaceship.image=rocket.png
 class.asteroid.image=asteroid.png
 class.border.image=border.png
@@ -64,10 +65,10 @@ dependency8.type=UsesDependency
 dependency9.from=MyWorld
 dependency9.to=asteroid
 dependency9.type=UsesDependency
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
+editor.fx.0.height=878
+editor.fx.0.width=1550
+editor.fx.0.x=-7
+editor.fx.0.y=-7
 height=585
 package.numDependencies=20
 package.numTargets=9
