@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Spaceship extends Actor
 {
+    GreenfootSound blastersound = new GreenfootSound("laser.mp3");
     /**
      * Act - do whatever the Spaceship wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -39,6 +40,7 @@ public class Spaceship extends Actor
             if (world.energylevel > 0)
             {
             laser laser = new laser();
+            blastersound.play();
             world.addObject(laser, getX(), getY() - 5);
             world.energylevel--;
             world.energy.setValue(world.energylevel);
