@@ -16,16 +16,15 @@ public class StartScreen extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1);
-        
-        Label start = new Label("Start", 100);
+        Label spaceship_Game = new Label("Spaceship Game", 75);
         Label instructions = new Label("(click to begin)", 50);
-        addObject(start, 300, 150);
+        addObject(spaceship_Game, 300, 150);
         addObject(instructions, 300, 250);
     }
     
     public void act()
     {
-        /*
+        /**
          * Starts the game if "Start" text is fixed
          */
         if(Greenfoot.mouseClicked(null))

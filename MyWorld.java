@@ -10,7 +10,7 @@ public class MyWorld extends World
 {
     public int scorenumber = 0;
     public int asteroidspeed = 5;
-    public int energylevel = 10;
+    public int energylevel = 20;
     public int spaceshipX;
     public int spaceshipY;
     Label score;
@@ -22,8 +22,7 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
-        
+        super(600, 400, 1);
         Spaceship player = new Spaceship();
         addObject(player, 300, 350);
         score = new Label(scorenumber, 30);
@@ -36,6 +35,9 @@ public class MyWorld extends World
         addObject(topBorder, 1, 1);
         addObject(border, 1, 400);
     }
+    /**
+    * Creates new asteroid when touching world border
+    */
     public void createAsteroid()
     {
         asteroid asteroids = new asteroid();
@@ -43,34 +45,67 @@ public class MyWorld extends World
         int y = 0;
         addObject(asteroids, x, y);
     }
+    /**
+    Increases score and refills energy level as well as increases
+    asteroid speed
+    */
     public void increaseScore()
     {
         scorenumber++;
-        asteroidspeed++;
+        if (asteroidspeed < 11)
+        {
+            asteroidspeed++;
+        }
+        if (energylevel < 10)
+        {
+            energylevel = energylevel + 10;
+        }
+        if (energylevel > 9)
+        {
+            energylevel = 20;
+        }
+        energy.setValue(energylevel);
         score.setValue(scorenumber);
     }
+    /**
+    * Switches world from myWorld to EndScreen
+    */
     public void gameOver()
     {
         EndScreen EndScreen = new EndScreen();
         Greenfoot.setWorld(EndScreen);
     }
+    /**
+    * Returns asteroidspeed value
+    */
     public int getSpeed()
     {
         return asteroidspeed;
     }
+    /**
+    * Allows shooting lasers from the spaceship
+    */
     public void shoot()
     {
+
         laser laser = new laser();
         int laserx = spaceshipX;
-        int lasery = spaceshipY - 3;
+        int lasery = spaceshipY;
         addObject(laser, laserx, lasery);
     }
+    /**
+    * sets "x" variable from spaceship coordinates
+    */
     public void setShipX(int x)
     {
         spaceshipX = x;
     }
+    /**
+    * sets "y" variable from spaceship coordinates
+    */
     public void setShipY(int y)
     {
+
         spaceshipY = y;
     }
 }

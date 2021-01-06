@@ -14,6 +14,7 @@ public class topborder extends Actor
      */
     public void act() 
     {
+        //Spawns the border at the top
         setLocation(0, 1);
         spawn();
     }
