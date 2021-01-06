@@ -1,8 +1,15 @@
-Project documentation
+Class documentation
 <---- javadoc command: ---->
 C:\Program Files\Greenfoot\jdk\bin\javadoc.exe
--sourcepath
-C:\Users\conra\Documents\GitHub\Greenfoot-Project
+-author
+-version
+-nodeprecated
+-protected
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
 -source
 11
 -classpath
@@ -13,37 +20,23 @@ C:\Users\conra\Documents\GitHub\Greenfoot-Project\doc
 UTF-8
 -charset
 UTF-8
--doctitle
-Greenfoot-Project
--windowtitle
-Greenfoot-Project
--author
--version
--nodeprecated
--protected
--Xdoclint:none
--link
-https://docs.oracle.com/en/java/javase/11/docs/api/
-C:\Users\conra\Documents\GitHub\Greenfoot-Project/border.java
-C:\Users\conra\Documents\GitHub\Greenfoot-Project/StartScreen.java
-C:\Users\conra\Documents\GitHub\Greenfoot-Project/laser.java
-C:\Users\conra\Documents\GitHub\Greenfoot-Project/PowerUps.java
-C:\Users\conra\Documents\GitHub\Greenfoot-Project/Spaceship.java
-C:\Users\conra\Documents\GitHub\Greenfoot-Project/Label.java
-C:\Users\conra\Documents\GitHub\Greenfoot-Project/EndScreen.java
-C:\Users\conra\Documents\GitHub\Greenfoot-Project/asteroid.java
-C:\Users\conra\Documents\GitHub\Greenfoot-Project/MyWorld.java
+C:\Users\conra\Documents\GitHub\Greenfoot-Project\MyWorld.java
 <---- end of javadoc command ---->
-Loading source file C:\Users\conra\Documents\GitHub\Greenfoot-Project\border.java...
-Loading source file C:\Users\conra\Documents\GitHub\Greenfoot-Project\StartScreen.java...
-Loading source file C:\Users\conra\Documents\GitHub\Greenfoot-Project\laser.java...
-Loading source file C:\Users\conra\Documents\GitHub\Greenfoot-Project\PowerUps.java...
-Loading source file C:\Users\conra\Documents\GitHub\Greenfoot-Project\Spaceship.java...
-Loading source file C:\Users\conra\Documents\GitHub\Greenfoot-Project\Label.java...
-Loading source file C:\Users\conra\Documents\GitHub\Greenfoot-Project\EndScreen.java...
-Loading source file C:\Users\conra\Documents\GitHub\Greenfoot-Project\asteroid.java...
 Loading source file C:\Users\conra\Documents\GitHub\Greenfoot-Project\MyWorld.java...
-C:\Users\conra\Documents\GitHub\Greenfoot-Project\MyWorld.java:57: error: illegal start of expression
-    }
-    ^
-1 error
+Constructing Javadoc information...
+warning: unknown enum constant Tag.Any
+  reason: class file for threadchecker.Tag not found
+warning: unknown enum constant Tag.Any
+warning: unknown enum constant Tag.Any
+warning: unknown enum constant Tag.Any
+Standard Doclet version 11.0.2
+Building tree for all the packages and classes...
+Generating C:\Users\conra\Documents\GitHub\Greenfoot-Project\doc\MyWorld.html...
+Generating C:\Users\conra\Documents\GitHub\Greenfoot-Project\doc\package-summary.html...
+Generating C:\Users\conra\Documents\GitHub\Greenfoot-Project\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\conra\Documents\GitHub\Greenfoot-Project\doc\allclasses.html...
+Generating C:\Users\conra\Documents\GitHub\Greenfoot-Project\doc\allclasses.html...
+Generating C:\Users\conra\Documents\GitHub\Greenfoot-Project\doc\index.html...
+4 warnings

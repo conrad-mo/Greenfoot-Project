@@ -35,20 +35,22 @@ public class MyWorld extends World
         addObject(topBorder, 1, 1);
         addObject(border, 1, 400);
     }
+    /**
+    * Creates new asteroid when touching world border
+    */
     public void createAsteroid()
     {
-        //Creates new asteroid when touching world border
         asteroid asteroids = new asteroid();
         int x = Greenfoot.getRandomNumber(600);
         int y = 0;
         addObject(asteroids, x, y);
     }
+    /**
+    Increases score and refills energy level as well as increases
+    asteroid speed
+    */
     public void increaseScore()
     {
-        /*
-        Increases score and refills energy level as well as increases
-        asteroid speed
-        */
         scorenumber++;
         if (asteroidspeed < 11)
         {
@@ -65,33 +67,45 @@ public class MyWorld extends World
         energy.setValue(energylevel);
         score.setValue(scorenumber);
     }
+    /**
+    * Switches world from myWorld to EndScreen
+    */
     public void gameOver()
     {
-        //Switches world from myWorld to EndScreen
         EndScreen EndScreen = new EndScreen();
         Greenfoot.setWorld(EndScreen);
     }
+    /**
+    * Returns asteroidspeed value
+    */
     public int getSpeed()
     {
-        //Returns asteroidspeed value
         return asteroidspeed;
     }
+    /**
+    * Allows shooting lasers from the spaceship
+    */
     public void shoot()
     {
-        //Allows shooting lasers from the spaceship
+
         laser laser = new laser();
         int laserx = spaceshipX;
         int lasery = spaceshipY;
         addObject(laser, laserx, lasery);
     }
+    /**
+    * sets "x" variable from spaceship coordinates
+    */
     public void setShipX(int x)
     {
-        //sets "x" variable from spaceship coordinates
         spaceshipX = x;
     }
+    /**
+    * sets "y" variable from spaceship coordinates
+    */
     public void setShipY(int y)
     {
-        //sets "y" variable from spaceship coordinates
+
         spaceshipY = y;
     }
 }

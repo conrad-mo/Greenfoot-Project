@@ -23,7 +23,9 @@ public class EndScreen extends World
     }
     public void act()
     {
-        //Goes back to start screen when clicked
+        /**
+         * Goes back to start screen when clicked
+         */
         if(Greenfoot.mouseClicked(null))
         {
             StartScreen EndScreen = new StartScreen();
