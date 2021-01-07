@@ -15,6 +15,9 @@ public class MyWorld extends World
     public int spaceshipY;
     Label score;
     Label energy;
+    laser laser;
+    asteroid asteroid;
+    Spaceship spaceship;
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -105,7 +108,19 @@ public class MyWorld extends World
     */
     public void setShipY(int y)
     {
-
         spaceshipY = y;
+    }
+    public void togglePauseGame()
+    {
+        laser.toggleEnabled();
+        asteroid.toggleEnabled();
+        spaceship.toggleEnabled();
+    }
+    public void act()
+    {
+        if(Greenfoot.mouseClicked(null))
+        {
+            togglePauseGame();
+        }
     }
 }
