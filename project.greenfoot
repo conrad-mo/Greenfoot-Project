@@ -66,9 +66,15 @@ dependency9.from=MyWorld
 dependency9.to=border
 dependency9.type=UsesDependency
 editor.fx.0.height=737
+<<<<<<< HEAD
 editor.fx.0.width=760
 editor.fx.0.x=336
 editor.fx.0.y=136
+=======
+editor.fx.0.width=814
+editor.fx.0.x=360
+editor.fx.0.y=42
+>>>>>>> parent of 4c68876... Attempted to fix pausing
 height=585
 package.numDependencies=20
 package.numTargets=9

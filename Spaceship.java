@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Spaceship extends Actor
 {
     GreenfootSound blastersound = new GreenfootSound("laser.mp3");
-    public static boolean enabled = true;
+    boolean enabled = true;
     /**
      * Act - do whatever the Spaceship wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.

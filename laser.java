@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class laser extends Actor
 {
-    public static boolean enabled = true;
+    boolean enabled = true;
     /**
      * Act - do whatever the laser wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.

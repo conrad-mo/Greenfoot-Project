@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class asteroid extends Actor
 {
-    public static boolean enabled = true;
+    boolean enabled = true;
     /**
      * Gets the asteroid to fall and increases speed based on score
      */
