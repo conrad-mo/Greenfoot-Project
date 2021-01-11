@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class laser extends Actor
 {
-    boolean enabled = true;
     /**
      * Act - do whatever the laser wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -17,13 +16,9 @@ public class laser extends Actor
     {
         setLocation(getX(), getY() - 6);
         destroy();
-      if(!enabled)
-      {
-         return;
-      }
     }
     public void destroy()
-    /**
+    /*
      * Destroys asteroids if in contact with one
      */
     {
@@ -34,12 +29,5 @@ public class laser extends Actor
             world.createAsteroid();
             world.increaseScore();
         }
-    }
-    /**
-    *Toggle enabled or disabled.
-    */
-    public void toggleEnabled()
-    {
-        enabled = !enabled;
     }
 }
