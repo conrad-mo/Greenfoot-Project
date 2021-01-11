@@ -29,7 +29,7 @@ public class StartScreen extends World
          */
         if(Greenfoot.mouseClicked(null))
         {
-            MyWorld world = new MyWorld();
+            InfoScreen world = new InfoScreen();
             Greenfoot.setWorld(world);
         }
     }
