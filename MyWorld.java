@@ -15,6 +15,8 @@ public class MyWorld extends World
     public int spaceshipY;
     Label score;
     Label energy;
+    Label scoreText;
+    Label energyText;
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -25,9 +27,13 @@ public class MyWorld extends World
         super(600, 400, 1);
         Spaceship player = new Spaceship();
         addObject(player, 300, 350);
+        scoreText = new Label("Score:", 30);
+        energyText = new Label("Energy:", 30);
         score = new Label(scorenumber, 30);
         energy = new Label(energylevel, 30);
-        addObject(score, 20, 20);
+        addObject(scoreText, 40, 20);
+        addObject(score, 85, 20);
+        addObject(energyText, 520, 20);
         addObject(energy, 580, 20);
         createAsteroid();
         border border = new border();
@@ -56,11 +62,11 @@ public class MyWorld extends World
         {
             asteroidspeed++;
         }
-        if (energylevel < 10)
+        if (energylevel < 20)
         {
-            energylevel = energylevel + 10;
+            energylevel = energylevel + 1;
         }
-        if (energylevel > 9)
+        if (energylevel > 19)
         {
             energylevel = 20;
         }
