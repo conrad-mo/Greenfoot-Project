@@ -111,7 +111,6 @@ public class MyWorld extends World
     */
     public void setShipY(int y)
     {
-
         spaceshipY = y;
     }
 }
