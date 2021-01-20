@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=InfoScreen
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ InfoScreen\ here.\r\n\ \r\n\ @Conrad\ Mo\ \r\n\ @January\ 2021\r\n
+comment0.text=\r\n\ The\ info\ screen\ is\ the\ world\ that\ provides\ the\ player\ on\ how\ to\ play\ the\ game\ and\ controls\r\n\ \r\n\ @Conrad\ Mo\ \r\n\ @January\ 2021\r\n
 comment1.params=
 comment1.target=InfoScreen()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ InfoScreen.\r\n\ \r\n

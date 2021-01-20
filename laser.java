@@ -1,7 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class laser here.
+ * The laser is a blue rectangle that destroys asteroids on contact.
+ * It consumes energy per shot which can be seen in the top right corner of the game
  * 
  * @Conrad Mo 
  * @January 2021

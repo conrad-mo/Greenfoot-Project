@@ -1,7 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class border here.
+ * The border is used to destroy asteroids once they reach the bottom of the world.
+ * This is an invisible actor that is 1px thick
  * 
  * @Conrad Mo 
  * @January 2021

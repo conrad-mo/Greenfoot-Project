@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * The game world/screen
+ * The main world where the game mostly functions and takes place
  * 
  * @Conrad Mo 
  * @January 2021

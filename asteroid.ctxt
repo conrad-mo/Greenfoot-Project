@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=asteroid
-comment0.text=\r\n\ An\ asteroid\ class\r\n\ \r\n\ @Conrad\ Mo\ \r\n\ @January\ 2021\r\n
+comment0.text=\r\n\ An\ asteroid\ class.\ This\ actor\ is\ randomly\ generated\ specifically\ to\ target\ the\ spaceship\r\n\ \r\n\ @Conrad\ Mo\ \r\n\ @January\ 2021\r\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\r\n\ Gets\ the\ asteroid\ to\ fall\ and\ increases\ speed\ based\ on\ score\r\n

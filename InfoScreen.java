@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class InfoScreen here.
+ * The info screen is the world that provides the player on how to play the game and controls
  * 
  * @Conrad Mo 
  * @January 2021

@@ -1,7 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class topborder here.
+ * The topboarder actor functions the same way as the border actor except it is place at the top
+ * It removes lasers once they reach the top of the world.
  * 
  * @Conrad Mo 
  * @January 2021

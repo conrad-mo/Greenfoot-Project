@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class StartScreen here.
+ * This is the launch screen that continues into the info screen
  * 
  * @Conrad Mo 
  * @January 2021

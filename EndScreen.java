@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class EndScreen here.
+ * The endscreen of the game stating gameover and a way to restart the game
  * 
  * @Conrad Mo 
  * @January 2021

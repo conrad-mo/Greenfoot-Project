@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=laser
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ laser\ here.\r\n\ \r\n\ @Conrad\ Mo\ \r\n\ @January\ 2021\r\n
+comment0.text=\r\n\ The\ laser\ is\ a\ blue\ rectangle\ that\ destroys\ asteroids\ on\ contact.\r\n\ It\ consumes\ energy\ per\ shot\ which\ can\ be\ seen\ in\ the\ top\ right\ corner\ of\ the\ game\r\n\ \r\n\ @Conrad\ Mo\ \r\n\ @January\ 2021\r\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ laser\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
