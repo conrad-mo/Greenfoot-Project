@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Spaceship
-comment0.text=\r\n\ The\ Spaceship\ is\ player\ controlled\ game\ character\r\n\ \r\n\ @Conrad\ Mo\r\n\ @January\ 2021\r\n\ \r\n
+comment0.text=\r\n\ The\ Spaceship\ is\ player\ controlled\ game\ character\r\n\ \r\n\ @Conrad\ Mo\r\n\ @Novemeber\ 2020\r\n\ \r\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Spaceship\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n

@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * This is the launch screen that continues into the info screen
  * 
  * @Conrad Mo 
- * @January 2021
+ * @November 2020
  */
 public class StartScreen extends World
 {

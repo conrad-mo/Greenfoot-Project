@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=border
-comment0.text=\r\n\ The\ border\ is\ used\ to\ destroy\ asteroids\ once\ they\ reach\ the\ bottom\ of\ the\ world.\r\n\ This\ is\ an\ invisible\ actor\ that\ is\ 1px\ thick\r\n\ \r\n\ @Conrad\ Mo\ \r\n\ @January\ 2021\r\n
+comment0.text=\r\n\ The\ border\ is\ used\ to\ destroy\ asteroids\ once\ they\ reach\ the\ bottom\ of\ the\ world.\r\n\ This\ is\ an\ invisible\ actor\ that\ is\ 1px\ thick\r\n\ \r\n\ @Conrad\ Mo\ \r\n\ @November\ 2020\r\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ border\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n

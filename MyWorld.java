@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * The main world where the game mostly functions and takes place
  * 
  * @Conrad Mo 
- * @January 2021
+ * @Novemeber 2020
  */
 public class MyWorld extends World
 {

@@ -5,7 +5,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * It removes lasers once they reach the top of the world.
  * 
  * @Conrad Mo 
- * @January 2021
+ * @November 2020
  */
 public class topborder extends Actor
 {

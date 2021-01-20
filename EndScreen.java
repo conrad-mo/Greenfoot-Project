@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * The endscreen of the game stating gameover and a way to restart the game
  * 
  * @Conrad Mo 
- * @January 2021
+ * @November 2020
  */
 public class EndScreen extends World
 {

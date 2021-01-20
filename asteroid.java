@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * An asteroid class. This actor is randomly generated specifically to target the spaceship
  * 
  * @Conrad Mo 
- * @January 2021
+ * @November 2020
  */
 public class asteroid extends Actor
 {

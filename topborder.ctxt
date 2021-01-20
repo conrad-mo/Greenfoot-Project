@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=topborder
-comment0.text=\r\n\ The\ topboarder\ actor\ functions\ the\ same\ way\ as\ the\ border\ actor\ except\ it\ is\ place\ at\ the\ top\r\n\ It\ removes\ lasers\ once\ they\ reach\ the\ top\ of\ the\ world.\r\n\ \r\n\ @Conrad\ Mo\ \r\n\ @January\ 2021\r\n
+comment0.text=\r\n\ The\ topboarder\ actor\ functions\ the\ same\ way\ as\ the\ border\ actor\ except\ it\ is\ place\ at\ the\ top\r\n\ It\ removes\ lasers\ once\ they\ reach\ the\ top\ of\ the\ world.\r\n\ \r\n\ @Conrad\ Mo\ \r\n\ @November\ 2020\r\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ topborder\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n

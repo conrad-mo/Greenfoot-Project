@@ -5,7 +5,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * It consumes energy per shot which can be seen in the top right corner of the game
  * 
  * @Conrad Mo 
- * @January 2021
+ * @November 2020
  */
 public class laser extends Actor
 {

@@ -5,7 +5,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * This is an invisible actor that is 1px thick
  * 
  * @Conrad Mo 
- * @January 2021
+ * @November 2020
  */
 public class border extends Actor
 {

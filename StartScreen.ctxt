@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=StartScreen
-comment0.text=\r\n\ This\ is\ the\ launch\ screen\ that\ continues\ into\ the\ info\ screen\r\n\ \r\n\ @Conrad\ Mo\ \r\n\ @January\ 2021\r\n
+comment0.text=\r\n\ This\ is\ the\ launch\ screen\ that\ continues\ into\ the\ info\ screen\r\n\ \r\n\ @Conrad\ Mo\ \r\n\ @November\ 2020\r\n
 comment1.params=
 comment1.target=StartScreen()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ StartScreen.\r\n\ \r\n

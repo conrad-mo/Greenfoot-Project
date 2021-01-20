@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * The Spaceship is player controlled game character
  * 
  * @Conrad Mo
- * @January 2021
+ * @Novemeber 2020
  * 
  */
 public class Spaceship extends Actor
