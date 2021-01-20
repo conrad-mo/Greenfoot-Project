@@ -4,7 +4,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * The Spaceship is player controlled game character
  * 
  * @Conrad Mo
- * @November 25th 2020
+ * @January 2021
+ * 
  */
 public class Spaceship extends Actor
 {
@@ -15,39 +16,41 @@ public class Spaceship extends Actor
      */
     public void act() 
     {
-      /*
-       * Movement keys for spaceship
-       */
-        if (Greenfoot.isKeyDown("d"))
-        {
-            move(3);
-        }
-        else if (Greenfoot.isKeyDown("a"))
-        {
-            move(-3);
-        }
-        else if (Greenfoot.isKeyDown("w"))
-        {
-            setLocation(getX(), getY() - 3);
-        }
-        else if (Greenfoot.isKeyDown("s"))
-        {
-            setLocation(getX(), getY() + 3);
-        }
-        else if (Greenfoot.isKeyDown("space"))
-        {
-            MyWorld world = (MyWorld) getWorld();
-            if (world.energylevel > 0)
-            {
-            laser laser = new laser();
-            blastersound.play();
-            world.addObject(laser, getX(), getY() - 5);
-            world.energylevel--;
-            world.energy.setValue(world.energylevel);
-            }
-        }
-        end();
+      int lasery = getY() - 110;
+      int laserx = getX() - 2;
+      if (Greenfoot.isKeyDown("d"))
+      {
+          move(3);
+      }
+      else if (Greenfoot.isKeyDown("a"))
+      {
+          move(-3);
+      }
+      else if (Greenfoot.isKeyDown("w"))
+      {
+          setLocation(getX(), getY() - 3);
+      }
+      else if (Greenfoot.isKeyDown("s"))
+      {
+          setLocation(getX(), getY() + 3);
+      }
+      else if (Greenfoot.isKeyDown("space"))
+      {
+          MyWorld world = (MyWorld) getWorld();
+          if (world.energylevel > 0)
+          {
+          laser laser = new laser();
+          blastersound.play();
+          world.addObject(laser, laserx, lasery);
+          world.energylevel--;
+          world.energy.setValue(world.energylevel);
+          }
+      }
+      end();
     }
+    /**Ends the game if spaceship touches the asteroid
+     * 
+     */
     public void end()
     {
        /*

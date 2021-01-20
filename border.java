@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class border here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Conrad Mo 
+ * @January 2021
  */
 public class border extends Actor
 {
@@ -18,17 +18,21 @@ public class border extends Actor
         setLocation(0, 400);
         spawn();
     }
+    /**
+    * Spawns new asteroids when asteroid reaches the bottom of the world
+    */
     public void spawn()
     {
-        /*
-         * Spawns new asteroids when asteroid reaches the bottom of the world
-         */
         if (isTouching(asteroid.class))
         {
             removeTouching(asteroid.class);
             MyWorld world = (MyWorld) getWorld();
             world.createAsteroid();
             world.increaseScore();
+            if(world.scorenumber == 20)
+            {
+                world.createAsteroid();
+            }
         }
     }
 }

@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class EndScreen here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Conrad Mo 
+ * @January 2021
  */
 public class EndScreen extends World
 {
@@ -21,11 +21,11 @@ public class EndScreen extends World
         addObject(gameOver, 300, 150);
         addObject(instructions, 300, 250);
     }
+    /**
+    * Goes back to start screen when clicked
+    */
     public void act()
     {
-        /**
-         * Goes back to start screen when clicked
-         */
         if(Greenfoot.mouseClicked(null))
         {
             StartScreen EndScreen = new StartScreen();
