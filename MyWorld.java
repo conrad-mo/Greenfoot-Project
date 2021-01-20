@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * The game world/screen
  * 
  * @Conrad Mo 
- * @November 25th 2020
+ * @January 2021
  */
 public class MyWorld extends World
 {

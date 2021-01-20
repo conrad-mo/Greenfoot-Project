@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class InfoScreen here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Conrad Mo 
+ * @January 2021
  */
 public class InfoScreen extends World
 {
@@ -29,11 +29,11 @@ public class InfoScreen extends World
         addObject(screenInstructionsFive, 300, 250);
         addObject(click, 300, 300);
     }
+    /**
+    * Starts the game if "Start" text is fixed
+    */
     public void act()
     {
-        /**
-         * Starts the game if "Start" text is fixed
-         */
         if(Greenfoot.mouseClicked(null))
         {
             MyWorld world = new MyWorld();

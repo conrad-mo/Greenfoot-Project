@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class topborder here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Conrad Mo 
+ * @January 2021
  */
 public class topborder extends Actor
 {
@@ -18,11 +18,11 @@ public class topborder extends Actor
         setLocation(0, 1);
         spawn();
     }
+    /**
+    * removes lasers if reaching the top of the world
+    */
     public void spawn()
     {
-        /*
-         * removes lasers if reaching the top of the world
-         */
         if (isTouching(laser.class))
         {
             removeTouching(laser.class);

@@ -4,7 +4,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * The Spaceship is player controlled game character
  * 
  * @Conrad Mo
- * @November 25th 2020
+ * @January 2021
+ * 
  */
 public class Spaceship extends Actor
 {
@@ -47,6 +48,9 @@ public class Spaceship extends Actor
       }
       end();
     }
+    /**Ends the game if spaceship touches the asteroid
+     * 
+     */
     public void end()
     {
        /*

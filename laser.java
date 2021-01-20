@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class laser here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Conrad Mo 
+ * @January 2021
  */
 public class laser extends Actor
 {
@@ -17,10 +17,10 @@ public class laser extends Actor
         setLocation(getX(), getY() - 6);
         destroy();
     }
+    /**
+    * Destroys asteroids if in contact with one
+    */
     public void destroy()
-    /*
-     * Destroys asteroids if in contact with one
-     */
     {
         if (isTouching(asteroid.class))
         {

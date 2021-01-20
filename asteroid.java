@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * An asteroid class
  * 
  * @Conrad Mo 
- * @November 25th 2020
+ * @January 2021
  */
 public class asteroid extends Actor
 {
